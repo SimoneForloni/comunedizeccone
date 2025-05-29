@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="imgs/stemma_zeccone.png" type="image/png">
+  <title>Comune di Zeccone - Il Comune</title>
+
+  <style>
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    .table th,
+    .table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .table th {
+      background-color: var(--primary-color);
+      color: white;
+      font-weight: bold;
+    }
+
+    .table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .table tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .table h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: var(--primary-color);
+    }
+
+    table ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html" class="homepage">
+          <img src="imgs/stemma_zeccone.png" alt="Stemma Comune di Zeccone">
+        </a>
+        <a href="index.html" class="homepage">
+          <h1>Comune di Zeccone</h1>
+        </a>
+      </div>
+      <label for="sidebar-active" class="open-sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+      </label>
+    </div>
+  </header>
+
+  <input type="checkbox" id="sidebar-active" hidden>
+
+  <label id="overlay" for="sidebar-active"></label>
+
+  <nav>
+    <div id="close-btn" class="container">
+      <label for="sidebar-active" class="close-sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+          <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+        </svg>
+      </label>
+    </div>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="il-comune.html">Il Comune</a>
+          <ul class="submenu">
+            <li><a href="il-comune.html#storia">Storia</a></li>
+            <li><a href="il-comune.html#amministrazione">Amministrazione</a></li>
+            <li><a href="il-comune.html#statuto">Statuto e Regolamenti</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="servizi.html">Servizi</a>
+          <ul class="submenu">
+            <li><a href="servizi.html#anagrafe">Anagrafe e Stato Civile</a></li>
+            <li><a href="servizi.html#tributi">Tributi</a></li>
+            <li><a href="servizi.html#edilizia">Edilizia e Urbanistica</a></li>
+            <li><a href="servizi.html#scuola">Scuola e Istruzione</a></li>
+            <li><a href="servizi.html#sociale">Servizi Sociali</a></li>
+          </ul>
+        </li>
+        <li><a href="news-eventi.html">News ed Eventi</a></li>
+        <li>
+          <a href="vivere-zeccone.html">Vivere Zeccone</a>
+          <ul class="submenu">
+            <li><a href="vivere-zeccone.html#turismo">Turismo</a></li>
+            <li><a href="vivere-zeccone.html#cultura">Cultura e Associazioni</a></li>
+            <li><a href="vivere-zeccone.html#ambiente">Ambiente e Territorio</a></li>
+          </ul>
+        </li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a href="albo-pretorio.html">Albo Pretorio</a></li>
+        <li><a href="amministrazione-trasparente.html">Amministrazione Trasparente</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <img src="imgs/background.jpg" alt="background image">
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <h2>Il Comune di Zeccone</h2>
+        <p>
+          La tua guida ai servizi e alla vita cittadina. Scopri la storia,
+          l'amministrazione e tutto ciò che rende unica la nostra comunità.
+        </p>
+      </div>
+    </section>
+
+    <section id="storia">
+      <div class="container">
+        <h3>Storia</h3>
+        <p>
+          Zeccone, piccolo comune in provincia di Pavia, affonda le sue radici in tempi antichi, con tracce che
+          risalgono
+          all'epoca romana. Nel corso dei secoli, il suo territorio è stato testimone di vicende storiche significative,
+          legate alla pianura padana e alle influenze delle grandi città vicine come Pavia e Milano. Il nome "Zeccone"
+          potrebbe derivare da una forma dialettale o da un termine legato alla Zecca pavese.
+        </p>
+        <p>
+          Nel Medioevo, il borgo si sviluppò attorno a insediamenti agricoli e religiosi. La sua storia è strettamente
+          intrecciata con quella del Ducato di Milano e, successivamente, con il Regno d'Italia. Oggi, Zeccone mantiene
+          il
+          suo carattere rurale, pur essendo ben collegato ai centri maggiori, offrendo un equilibrio tra tranquillità e
+          accesso ai servizi.
+        </p>
+      </div>
+    </section>
+
+    <section id="amministrazione">
+      <div class="container">
+        <h3>Amministrazione</h3>
+        <p>L'Amministrazione Comunale di Zeccone è guidata dal Sindaco e dal Consiglio Comunale, eletti democraticamente
+          dai cittadini. L'amministrazione si impegna a promuovere lo sviluppo sostenibile del territorio, a migliorare
+          la
+          qualità della vita dei residenti e a garantire servizi efficienti e trasparenti.</p>
+        <h4>Organi di Governo:</h4>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">Composizione Amministrazione Comunale di Zeccone</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><strong>Sindaco</strong></td>
+              <td colspan="2">Nicholas Candrina</td>
+            </tr>
+            <tr>
+              <td><strong>Vicesindaco</strong></td>
+              <td colspan="2">Lisa Benedetta Molinari</td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Giunta Comunale</h4>
+              </td>
+              <td colspan="2">
+                <strong>Nicholas Candrina:</strong> Sindaco<br>
+                <strong>Lisa Benedetta Molinari:</strong> Vicesindaco<br>
+                <strong>Gaetano Di Dio:</strong> Assessore<br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Consiglio Comunale</h4>
+              </td>
+              <td>
+                <h5>Civicamente Insieme (Maggioranza)</h5>
+                <ul>
+                  <li><strong>Maccagnola Alessio:</strong> Capogruppo</li>
+                  <li><strong>Candrina Nicholas:</strong> Sindaco</li>
+                  <li><strong>Molinari Lisa Benedetta:</strong> Vicesindaco</li>
+                  <li><strong>Gaetano Di Dio:</strong> Assessore</li>
+                  <li>Bargiggia Daniele</li>
+                  <li>Berneri Graziano</li>
+                  <li>Ercolano Letizia</li>
+                  <li>Putilli Ilario Stefano</li>
+                </ul>
+              </td>
+              <td>
+                <h5>Zeccone La Rinascita (Minoranza)</h5>
+                <ul>
+                  <li><strong>Albani Andrea:</strong> Capogruppo</li>
+                  <li>Minoia Antonio</li>
+                  <li>Soldi Marta</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Per maggiori dettagli sui ruoli e sulle attività dell'amministrazione, consultare la sezione <a
+            href="amministrazione-trasparente.html">Amministrazione Trasparente</a>.</p>
+      </div>
+    </section>
+
+    <section id="statuto">
+      <div class="container">
+        <h3>Statuto e Regolamenti</h3>
+        <p>Lo Statuto Comunale è la carta fondamentale dell'ente, che definisce i principi dell'organizzazione e del
+          funzionamento del Comune di Zeccone, i diritti e i doveri dei cittadini, le forme di partecipazione e gli
+          strumenti di controllo.</p>
+        <p>I regolamenti comunali sono norme che disciplinano specifici settori dell'attività amministrativa e dei
+          servizi
+          erogati, garantendo trasparenza ed equità.</p>
+        <p>È possibile consultare e scaricare lo Statuto e tutti i regolamenti vigenti nella sezione dedicata dell'<a
+            href="amministrazione-trasparente.html">Amministrazione Trasparente</a> o nell'<a
+            href="albo-pretorio.html">Albo Pretorio</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>Comune di Zeccone</h3>
+          <p>Sito Istituzionale del Comune di Zeccone.</p>
+        </div>
+        <div class="footer-section links">
+          <h3>Link Utili</h3>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="accessibilita.html">Accessibilità</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h3>Seguici</h3>
+          <a href="#" target="_blank"><img src="imgs/facebook.png" alt="Facebook"></a>
+          <a href="#" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 Comune di Zeccone. Tutti i diritti riservati.
+      </div>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

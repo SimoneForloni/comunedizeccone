@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="imgs/stemma_zeccone.png" type="image/png">
+  <title>Comune di Zeccone - Homepage</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+
+      <a href="index.html" class="homepage">
+        <div class="logo">
+          <img src="imgs/stemma_zeccone.png" alt="Stemma Comune di Zeccone">
+          <h1>Comune di Zeccone</h1>
+        </div>
+      </a>     
+
+      <label for="sidebar-active" class="open-sidebar-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"
+          aria-labelledby="open-menu-desc">
+          <title id="open-menu-desc">Apri menu di navigazione</title>
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+      </label>
+
+    </div>
+  </header>
+
+  <input type="checkbox" id="sidebar-active">
+
+  <label id="overlay" for="sidebar-active"></label>
+
+  <nav>
+    <div id="close-btn">
+      <label class="close-sidebar-btn" for="sidebar-active">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"
+          aria-labelledby="close-menu-desc">
+          <title id="close-menu-desc">Chiudi menu di navigazione</title>
+          <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+        </svg>
+      </label>
+    </div>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="il-comune.html">Il Comune</a>
+          <ul class="submenu">
+            <li><a href="il-comune.html#storia">Storia</a></li>
+            <li><a href="il-comune.html#amministrazione">Amministrazione</a></li>
+            <li><a href="il-comune.html#statuto">Statuto e Regolamenti</a></li>
+          </ul>
+        </li>
+        <li><a href="servizi.html">Servizi</a>
+          <ul class="submenu">
+            <li><a href="servizi.html#anagrafe">Anagrafe e Stato Civile</a></li>
+            <li><a href="servizi.html#tributi">Tributi</a></li>
+            <li><a href="servizi.html#edilizia">Edilizia e Urbanistica</a></li>
+            <li><a href="servizi.html#scuola">Scuola e Istruzione</a></li>
+            <li><a href="servizi.html#sociale">Servizi Sociali</a></li>
+          </ul>
+        </li>
+        <li><a href="news-eventi.html">News ed Eventi</a></li>
+        <li><a href="vivere-zeccone.html">Vivere Zeccone</a>
+          <ul class="submenu">
+            <li><a href="vivere-zeccone.html#turismo">Turismo</a></li>
+            <li><a href="vivere-zeccone.html#cultura">Cultura e Associazioni</a></li>
+            <li><a href="vivere-zeccone.html#ambiente">Ambiente e Territorio</a></li>
+          </ul>
+        </li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a href="albo-pretorio.html">Albo Pretorio</a></li>
+        <li><a href="amministrazione-trasparente.html">Amministrazione Trasparente</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <img src="imgs/background.jpg" alt="background image" class="hero-background-img">
+
+  <main>
+
+    <section id="hero">
+      <div class="container">
+        <h2>Benvenuti nel sito ufficiale del Comune di Zeccone</h2>
+        <p>Informazioni, servizi e novità per i cittadini.</p>
+
+        <div class="btns">
+          <a href="#news" class="btn">Ultime Notizie</a>
+          <a href="#servizi" class="btn">Servizi Rapidi</a>
+          <a href="#eventi" class="btn">Eventi</a>
+          <a href="#avvisi-bandi" class="btn">Avvisi e Bandi</a>
+          <a href="#contatti" class="btn">Contatti Rapidi</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="card-section">
+      <div class="container">
+        <h2>Ultime Notizie</h2>
+        <div class="cards-grid">
+
+          <article class="item-box card">
+            <h3>Nuova Ordinanza: Uso Responsabile dell'Acqua</h3>
+            <p>
+              Il Comune di Zeccone ha pubblicato una nuova
+              ordinanza per sensibilizzare e regolare l'uso
+              dell'acqua potabile sul territorio. Scopri le
+              disposizioni per un consumo consapevole...
+            </p>
+            <a href="news-eventi.html#ordinanza-acqua" class="read-more">Dettagli</a>
+          </article>
+
+          <article class="item-box card">
+            <h3>Servizio Civile Universale: Candidature Aperte</h3>
+            <p>
+              Opportunità per i giovani di Zeccone! Sono aperte le candidature per il Servizio Civile Universale con
+              progetti
+              attivi anche nel nostro Comune. Scopri come partecipare...
+            </p>
+            <a href="news-eventi.html#servizio-civile" class="read-more">Dettagli</a>
+          </article>
+
+          <article class="item-box card">
+            <h3>Attivazione Servizio Infermieristico Domiciliare</h3>
+            <p>
+              Una nuova opportunità per i cittadini di Zeccone!
+              È attivo il Servizio Infermieristico Domiciliare,
+              pensato in particolare per gli over 65 in condizioni di fragilità.
+              Scopri come accedere e tutti i dettagli...
+            </p>
+            <a href="news-eventi.html#festa-zeccone" class="read-more">Dettagli</a>
+          </article>
+
+
+
+          <article class="item-box card">
+            <h3>Successo per la Festa di Zeccone</h3>
+            <p>
+              Un grande successo ha caratterizzato l'ultima edizione della Festa di Zeccone, che ha visto la
+              partecipazione di
+              numerosi cittadini e momenti di aggregazione per tutte le età...
+            </p>
+            <a href="ordinanza-acqua.html" class="read-more">Dettagli</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="servizi" class="icon-grid-section">
+      <div class="container">
+        <h2>Servizi al Cittadino</h2>
+        <div class="services-grid">
+
+          <div class="item-box service-item">
+            <img src="imgs/icon-anagrafe.png" alt="Icona Anagrafe">
+            <h3>Anagrafe</h3>
+            <p>Richieste di certificati, cambi di residenza, ecc.</p>
+          </div>
+
+          <div class="item-box service-item">
+            <img src="imgs/icon-tributi.png" alt="Icona Tributi">
+            <h3>Tributi</h3>
+            <p>Informazioni su IMU, TARI, pagamenti.</p>
+          </div>
+
+          <div class="item-box service-item">
+            <img src="imgs/icon-edilizia.png" alt="Icona Edilizia">
+            <h3>Edilizia e Urbanistica</h3>
+            <p>Permessi di costruire, PRG.</p>
+          </div>
+
+          <div class="item-box service-item">
+            <img src="imgs/icon-scuola.png" alt="Icona Scuola">
+            <h3>Scuola e Istruzione</h3>
+            <p>Iscrizioni, mensa, trasporti.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="eventi" class="featured-events-section">
+      <div class="container">
+        <h2>Eventi in Primo Piano</h2>
+        <div class="events-grid">
+          <article class="item-box event-card">
+            <img src="imgs/festa-patrono.jpg" alt="Festa del Patrono">
+            <div class="event-content">
+              <h3>Festa del Patrono di Zeccone</h3>
+              <p>Tradizionale festa patronale con bancarelle, musica e gastronomia locale. Non mancate!</p>
+              <p class="date">10 Settembre 2025</p>
+              <a href="news-eventi.html#festa-patrono" class="read-more">Dettagli</a>
+            </div>
+
+          </article>
+
+          <article class="item-box event-card">
+            <img src="imgs/mercatino-artigianato.webp" alt="Mercatino Artigianato">
+            <div class="event-content">
+              <h3>Mercatino dell'Artigianato Locale</h3>
+              <p>Esposizione e vendita di prodotti artigianali del territorio. Un'occasione per supportare i nostri
+                talenti.
+              </p>
+              <p class="date">25 Settembre 2025</p>
+              <a href="news-eventi.html#mercatino-artigianato" class="read-more">Dettagli</a>
+            </div>
+          </article>
+
+          <article class="item-box event-card">
+            <img src="imgs/incontro-sindaco.webp" alt="Incontro con il Sindaco">
+            <div class="event-content">
+              <h3>Incontro "Il Sindaco Ascolta"</h3>
+              <p>
+                Il Sindaco incontra i cittadini per un dialogo aperto sui temi del comune. La vostra voce è
+                importante.
+              </p>
+              <p class="date">3 Ottobre 2025</p>
+              <a href="news-eventi.html#incontro-sindaco" class="read-more">Dettagli</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="avvisi-bandi" class="announcements-section">
+      <div class="container">
+
+        <h2>Avvisi e Bandi</h2>
+        <div class="announcements-list">
+
+          <article class="announcement-item">
+            <h3><a href="#">Bando per l'assegnazione di contributi per
+                l'efficienza energetica</a></h3>
+            <p>Avviso pubblico per la presentazione di domande di contributo per interventi di miglioramento energetico
+              delle abitazioni.</p>
+            <p class="date">Pubblicato il: 20 Maggio 2025</p>
+          </article>
+
+          <article class="announcement-item">
+            <h3><a href="#">Avviso chiusura temporanea Via Roma per lavori
+                stradali</a></h3>
+            <p>Si informa la cittadinanza della chiusura temporanea di Via Roma dal 2 al 5 Giugno per lavori di
+              manutenzione.</p>
+            <p class="date">Pubblicato il: 18 Maggio 2025</p>
+          </article>
+
+          <article class="announcement-item">
+            <h3><a href="#">Convocazione Consiglio Comunale Straordinario</a>
+            </h3>
+            <p>Il Consiglio Comunale è convocato in sessione straordinaria per il giorno 30 Maggio 2025 alle ore 18:00.
+            </p>
+            <p class="date">Pubblicato il: 15 Maggio 2025</p>
+          </article>
+
+        </div>
+
+        <div class="text-center mt-25">
+          <a href="albo-pretorio.html" class="btn">Vedi tutti gli Avvisi e Bandi</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contatti" class="quick-contacts-section">
+
+      <div class="container">
+        <h2>Contatti Rapidi</h2>
+        <div class="contacts-grid">
+
+          <div class="item-box contact-item">
+            <img src="imgs/icon-urp.png" alt="Icona URP">
+            <h3>Ufficio Relazioni con il Pubblico (URP)</h3>
+            <ul>
+              <li>Tel: <a href="tel:+390382968001">0382 968001</a></li>
+              <li>Email: <a href="mailto:urp@comune.zeccone.pv.it">urp@comune.zeccone.pv.it</a></li>
+            </ul>
+          </div>
+
+          <div class="item-box contact-item">
+            <img src="imgs/icon-polizia-locale.png" alt="Icona Polizia Locale">
+            <h3>Polizia Locale</h3>
+            <ul>
+              <li>Tel: <a href="tel:+390382968002">0382 968002</a></li>
+              <li>Email: <a href="mailto:polizia@comune.zeccone.pv.it">polizia@comune.zeccone.pv.it</a></li>
+            </ul>
+          </div>
+
+          <div class="item-box contact-item">
+            <img src="imgs/icon-biblioteca.png" alt="Icona Biblioteca">
+            <h3>Biblioteca Comunale</h3>
+            <ul>
+              <li>Tel: <a href="tel:+390382968003">0382 968003</a></li>
+              <li>Email: <a href="mailto:biblioteca@comune.zeccone.pv.it">biblioteca@comune.zeccone.pv.it</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-25">
+          <a href="contatti.html" class="btn">Tutti i Contatti</a>
+          <a href="il-comune.html#uffici" class="btn">Orari di Apertura</a>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>Comune di Zeccone</h3>
+          <p>Sito Istituzionale del Comune di Zeccone.</p>
+        </div>
+        <div class="footer-section links">
+          <h3>Link Utili</h3>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="accessibilita.html">Accessibilità</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h3>Seguici</h3>
+          <a href="#" target="_blank"><img src="imgs/facebook.png" alt="Facebook"></a>
+          <a href="#" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 Comune di Zeccone. Tutti i diritti riservati.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
